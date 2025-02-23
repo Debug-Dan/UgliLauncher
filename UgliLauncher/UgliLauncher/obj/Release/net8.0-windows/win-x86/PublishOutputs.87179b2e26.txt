@@ -1,0 +1,2 @@
+C:\Users\danie\source\repos\UgliLauncher\UgliLauncher\bin\Release\net8.0-windows\publish\win-x86\UgliLauncher.pdb
+C:\Users\danie\source\repos\UgliLauncher\UgliLauncher\bin\Release\net8.0-windows\publish\win-x86\UgliLauncher.exe

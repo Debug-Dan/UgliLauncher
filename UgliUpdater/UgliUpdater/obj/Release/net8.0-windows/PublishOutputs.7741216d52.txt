@@ -1,0 +1,5 @@
+C:\Users\danie\Downloads\exe exports\UgliUpdater.exe
+C:\Users\danie\Downloads\exe exports\UgliUpdater.dll
+C:\Users\danie\Downloads\exe exports\UgliUpdater.deps.json
+C:\Users\danie\Downloads\exe exports\UgliUpdater.runtimeconfig.json
+C:\Users\danie\Downloads\exe exports\UgliUpdater.pdb

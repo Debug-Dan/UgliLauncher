@@ -1,0 +1,19 @@
+@echo off
+title UGLILAUNCHER UPDATER UPDATE - DO NOT CLOSE
+echo. TRYING TO UPDATE UGLILAUNCHER UPDATER
+echo. DO NOT CLOSE OR ELSE CORRUPTION COULD OCCUR
+echo.
+echo.
+echo. TRYING TO UPDATE UGLILAUNCHER UPDATER
+echo. DO NOT CLOSE OR ELSE CORRUPTION COULD OCCUR
+echo.
+echo.
+echo. TRYING TO UPDATE UGLILAUNCHER UPDATER
+echo. DO NOT CLOSE OR ELSE CORRUPTION COULD OCCUR
+echo.
+echo.
+cd "C:\Program Files (x86)\DebugDan\UgliLauncher"
+curl.exe -Lo updaterupdate.zip https://github.com/Debug-Dan/UgliLauncher/releases/download/Files/updaterupdate.zip
+powershell -command "Expand-Archive -Force 'updaterupdate.zip' '%cd%'"
+del /q updaterupdate.zip
+start StartUgli.exe

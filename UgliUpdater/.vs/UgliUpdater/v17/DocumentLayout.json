@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliUpdater\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D05A30F7-45B5-4642-A937-781A16A0DD70}|UgliUpdater\\StartUgli.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\ugliupdater\\ugliupdater\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D05A30F7-45B5-4642-A937-781A16A0DD70}|UgliUpdater\\StartUgli.vbproj|solutionrelative:ugliupdater\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05A30F7-45B5-4642-A937-781A16A0DD70}|UgliUpdater\\StartUgli.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\ugliupdater\\ugliupdater\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D05A30F7-45B5-4642-A937-781A16A0DD70}|UgliUpdater\\StartUgli.vbproj|solutionrelative:ugliupdater\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05A30F7-45B5-4642-A937-781A16A0DD70}|UgliUpdater\\StartUgli.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\ugliupdater\\ugliupdater\\startugli.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D05A30F7-45B5-4642-A937-781A16A0DD70}|UgliUpdater\\StartUgli.vbproj|solutionrelative:ugliupdater\\startugli.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartUgli",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliUpdater\\UgliUpdater\\StartUgli.vbproj",
+              "RelativeDocumentMoniker": "UgliUpdater\\StartUgli.vbproj",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliUpdater\\UgliUpdater\\StartUgli.vbproj",
+              "RelativeToolTip": "UgliUpdater\\StartUgli.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2025-01-18T00:43:54.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliUpdater\\UgliUpdater\\Form1.vb",
+              "RelativeDocumentMoniker": "UgliUpdater\\Form1.vb",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliUpdater\\UgliUpdater\\Form1.vb",
+              "RelativeToolTip": "UgliUpdater\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-17T04:10:21.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliUpdater\\UgliUpdater\\Form1.vb",
+              "RelativeDocumentMoniker": "UgliUpdater\\Form1.vb",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliUpdater\\UgliUpdater\\Form1.vb [Design]",
+              "RelativeToolTip": "UgliUpdater\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-17T03:53:19.029Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

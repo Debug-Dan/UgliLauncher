@@ -1,0 +1,16 @@
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\bin\Release\net8.0-windows\win-x86\UgliUpdater.exe
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\bin\Release\net8.0-windows\win-x86\UgliUpdater.deps.json
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\bin\Release\net8.0-windows\win-x86\UgliUpdater.runtimeconfig.json
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\bin\Release\net8.0-windows\win-x86\UgliUpdater.dll
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\bin\Release\net8.0-windows\win-x86\UgliUpdater.pdb
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.Form1.resources
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.vbproj.GenerateResource.cache
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.AssemblyInfo.vb
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.vbproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.dll
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\refint\UgliUpdater.dll
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.pdb
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\UgliUpdater.genruntimeconfig.cache
+C:\Users\danie\source\repos\UgliUpdater\UgliUpdater\obj\Release\net8.0-windows\win-x86\ref\UgliUpdater.dll
