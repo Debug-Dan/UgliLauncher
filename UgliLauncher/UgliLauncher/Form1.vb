@@ -60,6 +60,12 @@ Public Class Form1
         Catch ex As Exception
             Label4.Text = "Failed to retrieve update list."
         End Try
+        targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\OV\SetDefaults.txt") ' Checks if file exists for setting server options
+        If IO.File.Exists(targetFile) Then
+            CheckBox2.Checked = True
+        Else
+            CheckBox2.Checked = False
+        End If
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         selectedModpack = 1

@@ -31,6 +31,7 @@ Public Class Form2
                 Return
             End Try
         End If
+
         If Form1.selectedModpack = 1 Then ' TST 2 modpack
             targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST2\mods")
             If Not Directory.Exists(targetDirectory) Then
@@ -179,6 +180,7 @@ Public Class Form2
             Form1.Close()
             Return
         End If
+
         If Form1.selectedModpack = 2 Then ' Optimized Vanilla modpack
             targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\OV\mods")
             If Not Directory.Exists(targetDirectory) Then

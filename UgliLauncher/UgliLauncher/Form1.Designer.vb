@@ -174,11 +174,11 @@ Partial Class Form1
         CheckBox2.Checked = True
         CheckBox2.CheckState = CheckState.Checked
         CheckBox2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        CheckBox2.Location = New Point(12, 364)
+        CheckBox2.Location = New Point(41, 216)
         CheckBox2.Name = "CheckBox2"
-        CheckBox2.Size = New Size(266, 17)
+        CheckBox2.Size = New Size(207, 17)
         CheckBox2.TabIndex = 17
-        CheckBox2.Text = "Show TST Network Private Servers In Server List"
+        CheckBox2.Text = "Set some options to server defaults"
         CheckBox2.UseVisualStyleBackColor = True
         CheckBox2.Visible = False
         ' 

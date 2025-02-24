@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\uglilauncher\\uglilauncher\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|solutionrelative:uglilauncher\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\uglilauncher\\uglilauncher\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|solutionrelative:uglilauncher\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\uglilauncher\\uglilauncher\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|solutionrelative:uglilauncher\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\uglilauncher\\uglilauncher\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|solutionrelative:uglilauncher\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE46BBC2-10C5-41F6-947B-594708EF0151}|UgliLauncher\\UgliLauncher.vbproj|c:\\users\\danie\\source\\repos\\uglilauncher\\uglilauncher\\uglilauncher\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -109,13 +109,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form2.vb",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliLauncher\\UgliLauncher\\Form2.vb",
               "RelativeDocumentMoniker": "UgliLauncher\\Form2.vb",
               "ToolTip": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliLauncher\\UgliLauncher\\Form2.vb",
               "RelativeToolTip": "UgliLauncher\\Form2.vb",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAAAA8BAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAABAAAAAAAAAAAgwCYBAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-01-12T17:11:56.441Z",
               "EditorCaption": ""
@@ -134,19 +134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliLauncher\\UgliLauncher\\Form1.vb",
               "RelativeDocumentMoniker": "UgliLauncher\\Form1.vb",
               "ToolTip": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliLauncher\\UgliLauncher\\Form1.vb",
               "RelativeToolTip": "UgliLauncher\\Form1.vb",
-              "ViewState": "AgIAACAAAAAAAAAAAAAkwBYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwEIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-17T05:33:27.531Z"
+              "WhenOpened": "2025-01-17T05:33:27.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\UgliLauncher\\UgliLauncher\\UgliLauncher\\Form1.vb",
               "RelativeDocumentMoniker": "UgliLauncher\\Form1.vb",
