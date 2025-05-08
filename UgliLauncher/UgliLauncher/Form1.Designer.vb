@@ -37,6 +37,11 @@ Partial Class Form1
         Button5 = New Button()
         Button6 = New Button()
         CheckBox2 = New CheckBox()
+        Label5 = New Label()
+        Button7 = New Button()
+        Button8 = New Button()
+        Button9 = New Button()
+        CheckBox3 = New CheckBox()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -47,7 +52,7 @@ Partial Class Form1
         Label2.Name = "Label2"
         Label2.Size = New Size(31, 15)
         Label2.TabIndex = 1
-        Label2.Text = "1.6.4"
+        Label2.Text = "1.7.0"
         ' 
         ' Label3
         ' 
@@ -63,7 +68,8 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(32, 63)
+        Label1.ForeColor = SystemColors.Highlight
+        Label1.Location = New Point(32, 245)
         Label1.Name = "Label1"
         Label1.Size = New Size(63, 30)
         Label1.TabIndex = 4
@@ -72,7 +78,8 @@ Partial Class Form1
         ' Button2
         ' 
         Button2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button2.Location = New Point(32, 96)
+        Button2.ForeColor = SystemColors.Highlight
+        Button2.Location = New Point(32, 278)
         Button2.Name = "Button2"
         Button2.Size = New Size(75, 23)
         Button2.TabIndex = 5
@@ -82,7 +89,8 @@ Partial Class Form1
         ' Button3
         ' 
         Button3.Enabled = False
-        Button3.Location = New Point(113, 96)
+        Button3.ForeColor = SystemColors.Highlight
+        Button3.Location = New Point(113, 278)
         Button3.Name = "Button3"
         Button3.Size = New Size(75, 23)
         Button3.TabIndex = 6
@@ -92,7 +100,8 @@ Partial Class Form1
         ' Button1
         ' 
         Button1.Enabled = False
-        Button1.Location = New Point(194, 96)
+        Button1.ForeColor = SystemColors.Highlight
+        Button1.Location = New Point(194, 278)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 23)
         Button1.TabIndex = 7
@@ -115,11 +124,12 @@ Partial Class Form1
         ' 
         CheckBox1.AutoSize = True
         CheckBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        CheckBox1.Location = New Point(41, 125)
+        CheckBox1.ForeColor = SystemColors.Highlight
+        CheckBox1.Location = New Point(41, 307)
         CheckBox1.Name = "CheckBox1"
-        CheckBox1.Size = New Size(227, 17)
+        CheckBox1.Size = New Size(191, 17)
         CheckBox1.TabIndex = 10
-        CheckBox1.Text = "Fix Create items missing from JEI search"
+        CheckBox1.Text = "Fix Create items missing from JEI"
         CheckBox1.UseVisualStyleBackColor = True
         ' 
         ' Panel1
@@ -135,6 +145,7 @@ Partial Class Form1
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label6.ForeColor = SystemColors.Highlight
         Label6.Location = New Point(32, 154)
         Label6.Name = "Label6"
         Label6.Size = New Size(175, 30)
@@ -143,6 +154,7 @@ Partial Class Form1
         ' 
         ' Button4
         ' 
+        Button4.ForeColor = SystemColors.Highlight
         Button4.Location = New Point(32, 187)
         Button4.Name = "Button4"
         Button4.Size = New Size(75, 23)
@@ -152,6 +164,7 @@ Partial Class Form1
         ' 
         ' Button5
         ' 
+        Button5.ForeColor = SystemColors.Highlight
         Button5.Location = New Point(113, 187)
         Button5.Name = "Button5"
         Button5.Size = New Size(75, 23)
@@ -161,6 +174,7 @@ Partial Class Form1
         ' 
         ' Button6
         ' 
+        Button6.ForeColor = SystemColors.Highlight
         Button6.Location = New Point(194, 187)
         Button6.Name = "Button6"
         Button6.Size = New Size(75, 23)
@@ -174,6 +188,7 @@ Partial Class Form1
         CheckBox2.Checked = True
         CheckBox2.CheckState = CheckState.Checked
         CheckBox2.Font = New Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        CheckBox2.ForeColor = SystemColors.Highlight
         CheckBox2.Location = New Point(41, 216)
         CheckBox2.Name = "CheckBox2"
         CheckBox2.Size = New Size(207, 17)
@@ -182,12 +197,69 @@ Partial Class Form1
         CheckBox2.UseVisualStyleBackColor = True
         CheckBox2.Visible = False
         ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label5.ForeColor = SystemColors.Highlight
+        Label5.Location = New Point(32, 63)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(63, 30)
+        Label5.TabIndex = 18
+        Label5.Text = "TST 3"
+        ' 
+        ' Button7
+        ' 
+        Button7.ForeColor = SystemColors.Highlight
+        Button7.Location = New Point(32, 96)
+        Button7.Name = "Button7"
+        Button7.Size = New Size(75, 23)
+        Button7.TabIndex = 19
+        Button7.Text = "Install"
+        Button7.UseVisualStyleBackColor = True
+        ' 
+        ' Button8
+        ' 
+        Button8.ForeColor = SystemColors.Highlight
+        Button8.Location = New Point(113, 96)
+        Button8.Name = "Button8"
+        Button8.Size = New Size(75, 23)
+        Button8.TabIndex = 9
+        Button8.Text = "Open Files"
+        Button8.UseVisualStyleBackColor = True
+        ' 
+        ' Button9
+        ' 
+        Button9.ForeColor = SystemColors.Highlight
+        Button9.Location = New Point(194, 96)
+        Button9.Name = "Button9"
+        Button9.Size = New Size(75, 23)
+        Button9.TabIndex = 9
+        Button9.Text = "Delete"
+        Button9.UseVisualStyleBackColor = True
+        ' 
+        ' CheckBox3
+        ' 
+        CheckBox3.AutoSize = True
+        CheckBox3.ForeColor = SystemColors.Highlight
+        CheckBox3.Location = New Point(41, 125)
+        CheckBox3.Name = "CheckBox3"
+        CheckBox3.Size = New Size(199, 19)
+        CheckBox3.TabIndex = 9
+        CheckBox3.Text = "Fix Create items missing from JEI"
+        CheckBox3.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ControlLight
         ClientSize = New Size(676, 393)
+        Controls.Add(CheckBox3)
+        Controls.Add(Button9)
+        Controls.Add(Button8)
+        Controls.Add(Button7)
+        Controls.Add(Label5)
         Controls.Add(CheckBox2)
         Controls.Add(Button6)
         Controls.Add(Button5)
@@ -229,5 +301,10 @@ Partial Class Form1
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents CheckBox3 As CheckBox
 
 End Class
