@@ -43,6 +43,17 @@ Public Class Form1
             Button5.Enabled = False
             Button6.Enabled = False
         End If
+        targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\mods")
+        If Directory.Exists(targetDirectory) Then
+            Button7.Text = "Launch"
+            Button8.Enabled = True
+            Button9.Enabled = True
+        Else
+            Button7.Text = "Install"
+            Button8.Enabled = False
+            Button9.Enabled = False
+        End If
+        CheckBox1.Checked = False
         targetFile = Path.Combine(appDataPath, "UgliLauncher\loc.txt")
         If IO.File.Exists(targetFile) Then
             Await Task.Run(Sub() IO.File.Delete(targetFile))
@@ -104,6 +115,30 @@ Public Class Form1
     End Sub
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         selectedModpack = 2
+        Dim form4 As New Form4()
+        form4.Owner = Me
+        form4.StartPosition = FormStartPosition.CenterParent
+        form4.ShowDialog()
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        selectedModpack = 3
+        Dim form2 As New Form2()
+        form2.Owner = Me
+        form2.StartPosition = FormStartPosition.CenterParent
+        form2.ShowDialog()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Dim appDataPath As String = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)
+        Dim targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3")
+        If Directory.Exists(targetDirectory) Then
+            Process.Start("explorer.exe", targetDirectory)
+        End If
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        selectedModpack = 3
         Dim form4 As New Form4()
         form4.Owner = Me
         form4.StartPosition = FormStartPosition.CenterParent

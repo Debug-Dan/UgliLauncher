@@ -13,6 +13,9 @@ Public Class Form4
         If Form1.selectedModpack = 2 Then
             Label3.Text = "Optimized Vanilla"
         End If
+        If Form1.selectedModpack = 3 Then
+            Label3.Text = "TST 3"
+        End If
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
@@ -44,6 +47,20 @@ Public Class Form4
         End If
         If Form1.selectedModpack = 2 Then
             targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\OV")
+            If Directory.Exists(targetDirectory) Then
+                Await Task.Run(Sub() Directory.Delete(targetDirectory, True))
+            Else
+                Form1.operationErrorCode = 3
+                Dim form3 As New Form3()
+                form3.Owner = Form1
+                form3.StartPosition = FormStartPosition.CenterParent
+                form3.ShowDialog()
+                Me.Close()
+                Return
+            End If
+        End If
+        If Form1.selectedModpack = 3 Then
+            targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3")
             If Directory.Exists(targetDirectory) Then
                 Await Task.Run(Sub() Directory.Delete(targetDirectory, True))
             Else
