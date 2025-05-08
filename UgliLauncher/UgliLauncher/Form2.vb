@@ -295,7 +295,8 @@ Public Class Form2
             Return
         End If
 
-        If Form1.selectedModpack = 3 Then ' TST 3 modpack -----
+        ' ------- TST 3 MODPACK -------
+        If Form1.selectedModpack = 3 Then
             targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\mods")
             If Not Directory.Exists(targetDirectory) Then
                 Label1.Text = "Installing..."
@@ -304,7 +305,7 @@ Public Class Form2
                     Await Task.Run(Sub() Directory.Delete(targetDirectory, True))
                 End If
                 Directory.CreateDirectory(targetDirectory)
-                Try
+                Try ' First Time Install
                     Using client As New WebClient()
                         targetFile = Path.Combine(targetDirectory, "InstallArchive.zip")
                         Await Task.Run(Sub() client.DownloadFile("https://github.com/Debug-Dan/UgliLauncher/releases/download/Files/TST3-main.zip", targetFile))
@@ -321,11 +322,21 @@ Public Class Form2
                     Me.Close()
                     Return
                 End Try
+                Dim sourAcco As String = Path.Combine(appDataPath, "UgliLauncher\instances\OV\launcher_accounts.json") ' Checks for pre-existing user info for other modpacks
+                Dim destAcco As String = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\launcher_accounts.json")
+                If IO.File.Exists(sourAcco) Then
+                    IO.File.Copy(sourAcco, destAcco)
+                Else
+                    sourAcco = Path.Combine(appDataPath, "UgliLauncher\instances\TST2\launcher_accounts.json")
+                    If IO.File.Exists(sourAcco) Then
+                        IO.File.Copy(sourAcco, destAcco)
+                    End If
+                End If
             End If
             targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3")
             Label1.Text = "Checking..."
             ProgressBar1.Value = 100
-            Try
+            Try ' Version Check
                 Using client As New WebClient()
                     targetFile = Path.Combine(targetDirectory, "CurrentVersion.txt")
                     localCheck = Path.Combine(targetDirectory, "LocalVersion.txt")
@@ -341,7 +352,7 @@ Public Class Form2
                 currentVersion = "unknown"
                 localVersion = "none"
             End Try
-            If Not currentVersion = "unknown" Then
+            If Not currentVersion = "unknown" Then ' Update Pack (If version doesn't match)
                 If Not currentVersion.Trim() = localVersion.Trim() Then
                     Label1.Text = "Updating..."
                     ProgressBar1.Value = 0
@@ -379,13 +390,13 @@ Public Class Form2
                     Await Task.Run(Sub() IO.File.Delete(targetFile))
                 End If
             End If
-            If Form1.CheckBox3.Checked = True Then
+            If Form1.CheckBox3.Checked = True Then ' If user marked to fix create/jei bug, delete jei config
                 targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\config\jei")
                 If Directory.Exists(targetDirectory) Then
                     Await Task.Run(Sub() Directory.Delete(targetDirectory, True))
                 End If
             End If
-            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\config\xaeroworldmap.txt")
+            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\config\xaeroworldmap.txt") ' Modify xaero world map config to stop update notices
             If IO.File.Exists(targetFile) Then
                 Dim lines As List(Of String) = IO.File.ReadAllLines(targetFile).ToList()
                 For i As Integer = 0 To lines.Count - 1
@@ -398,7 +409,7 @@ Public Class Form2
                 Next
                 IO.File.WriteAllLines(targetFile, lines)
             End If
-            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\config\xaerominimap.txt")
+            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\config\xaerominimap.txt") ' Modify xaero mini map config to stop update notices
             If IO.File.Exists(targetFile) Then
                 Dim lines As List(Of String) = IO.File.ReadAllLines(targetFile).ToList()
                 For i As Integer = 0 To lines.Count - 1
@@ -411,7 +422,7 @@ Public Class Form2
                 Next
                 IO.File.WriteAllLines(targetFile, lines)
             End If
-            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\config\securitycraft-client.toml")
+            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\config\securitycraft-client.toml") ' Modify security craft config to stop update notices
             If IO.File.Exists(targetFile) Then
                 Dim lines As List(Of String) = IO.File.ReadAllLines(targetFile).ToList()
                 For i As Integer = 0 To lines.Count - 1
@@ -421,17 +432,17 @@ Public Class Form2
                 Next
                 IO.File.WriteAllLines(targetFile, lines)
             End If
-            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\servers.dat")
+            targetFile = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\servers.dat") ' Update server list (currently always overwrites)
             Try
                 Using client As New WebClient()
                     Await Task.Run(Sub() client.DownloadFile("https://github.com/Debug-Dan/UgliLauncher/releases/download/Files/servers.dat", targetFile))
                 End Using
             Catch ex As Exception
             End Try
-            targetFile = Path.Combine(appDataPath, "UgliLauncher\Minecraft.exe")
+            targetFile = Path.Combine(appDataPath, "UgliLauncher\Minecraft.exe") ' Starts Minecraft Launcher in instance folder
             targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3")
             Dim launcherQuickPlay As String = Path.Combine(targetDirectory, "launcher_quick_play.json")
-            If IO.File.Exists(launcherQuickPlay) Then
+            If IO.File.Exists(launcherQuickPlay) Then ' Deletes launcher quick play crap
                 Await Task.Run(Sub() IO.File.Delete(launcherQuickPlay))
             End If
             Dim startMC As New ProcessStartInfo()
