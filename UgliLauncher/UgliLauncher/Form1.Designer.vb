@@ -52,7 +52,7 @@ Partial Class Form1
         Label2.Name = "Label2"
         Label2.Size = New Size(31, 15)
         Label2.TabIndex = 1
-        Label2.Text = "1.7.5"
+        Label2.Text = "1.7.6"
         ' 
         ' Label3
         ' 

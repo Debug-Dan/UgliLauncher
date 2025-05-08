@@ -322,16 +322,6 @@ Public Class Form2
                     Me.Close()
                     Return
                 End Try
-                Dim sourAcco As String = Path.Combine(appDataPath, "UgliLauncher\instances\OV\launcher_accounts.json") ' Checks for pre-existing user info for other modpacks
-                Dim destAcco As String = Path.Combine(appDataPath, "UgliLauncher\instances\TST3\launcher_accounts.json")
-                If IO.File.Exists(sourAcco) Then
-                    IO.File.Copy(sourAcco, destAcco)
-                Else
-                    sourAcco = Path.Combine(appDataPath, "UgliLauncher\instances\TST2\launcher_accounts.json")
-                    If IO.File.Exists(sourAcco) Then
-                        IO.File.Copy(sourAcco, destAcco)
-                    End If
-                End If
             End If
             targetDirectory = Path.Combine(appDataPath, "UgliLauncher\instances\TST3")
             Label1.Text = "Checking..."
