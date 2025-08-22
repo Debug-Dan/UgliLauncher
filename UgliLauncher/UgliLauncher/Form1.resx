@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>This version of UgliLauncher is no longer supported.
+Maintaining this interface was too much work :(
+
+Please press the button below to automatically
+open your web browser and download the
+NEW UgliLauncher:
+
+After doing so, PLEASE uninstall this OLD version
+of UgliLauncher from your PC. You can uninstall
+this app in Windows settings.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

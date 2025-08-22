@@ -144,4 +144,8 @@ Public Class Form1
         form4.StartPosition = FormStartPosition.CenterParent
         form4.ShowDialog()
     End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Process.Start(New ProcessStartInfo("https://github.com/Debug-Dan/UgliLauncher/releases/download/Latest/UgliLauncher.bat") With {.UseShellExecute = True})
+    End Sub
 End Class

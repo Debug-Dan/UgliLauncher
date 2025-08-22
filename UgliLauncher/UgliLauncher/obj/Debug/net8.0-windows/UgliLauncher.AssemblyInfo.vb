@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("UgliLauncher"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdfb0791c35487567f6fef00b81e2f198faf19ae"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b20da2f32c9ff7028c8c2ba8bb1d99e8c5664a68"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("UgliLauncher"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("UgliLauncher"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
